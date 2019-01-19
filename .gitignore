@@ -1,0 +1,10 @@
+# Ignora arquivos de informações de pasta do linux 
+*.directory
+
+# Ignora arquivos locais de IDE etc
+/docs/*
+/.phpintel
+/.phpintel/*
+
+# Ingora arquivos de logs
+/srvlogs/*

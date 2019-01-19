@@ -1,0 +1,15 @@
+{
+    "description": "Vista Real Estate API Demo",
+    "type": "project",
+    "config": {
+        "vendor-dir": "private/vendor"
+    },
+    "require":
+    {
+    },
+    "autoload": {
+        "psr-4": {
+            "AppVista\\":"private/AppVista/"
+        }
+    }
+}
