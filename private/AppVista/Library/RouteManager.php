@@ -30,8 +30,10 @@ class RouteManager
         // Check if is homepage
         if(strlen($url) <= 1)
         {
-            // +++ Load index - DASHBOARD +++ //
-            
+            // Root URL
+            $controller = new \AppVista\Controllers\Frontend;
+            $controller->index();
+            return null;
         }
         else 
         {

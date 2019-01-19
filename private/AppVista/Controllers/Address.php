@@ -24,7 +24,7 @@ class Address extends MasterController
     
     public function index()
     {
-        include(self::MDL_PATH . $this->getClassRootName(__CLASS__) . 'list.php');
+        include(self::MDL_PATH . $this->getClassRootName(__CLASS__) . '/list.php');
     }
 
 
