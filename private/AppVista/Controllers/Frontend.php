@@ -14,19 +14,22 @@ use AppVista\Core\MasterController as MasterController;
 class Frontend extends MasterController
 {
     
-    
+    /**
+     * Initial procedures. 
+     * 
+     */
     public function __construct()
     {
-        
+        parent::__construct();
+
+        // Check if the user is loggedin
+        $this->checkLoggedIn();
     }
     
     
     public function index()
     {
-        //echo __DIR__;
-        
-        $url = (!empty($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . '/';
-        
+        $url = $this->appUrl;
 
         include(self::TPL_PATH . 'layout.php');
     }

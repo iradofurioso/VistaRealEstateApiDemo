@@ -18,10 +18,17 @@ class Address extends MasterController
     
     public function __construct()
     {
-        
+        parent::__construct();
+
+        // Check if the user is loggedin
+        $this->checkLoggedIn();
     }
     
     
+    /**
+     * Address module home screen. 
+     * 
+     */
     public function index()
     {
         include(self::MDL_PATH . $this->getClassRootName(__CLASS__) . '/list.php');

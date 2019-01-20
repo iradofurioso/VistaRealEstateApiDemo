@@ -16,12 +16,22 @@ class Dashboard extends MasterController
 {
     
     
+    /**
+     * Initial procedures. 
+     * 
+     */
     public function __construct()
     {
-        
+        parent::__construct();
+
+        // Check if the user is loggedin
+        $this->checkLoggedIn();
     }
     
     
+    /**
+     * Dashboard home screen. 
+     */
     public function index()
     {
         include(self::MDL_PATH . $this->getClassRootName(__CLASS__) . '/list.php'); 
