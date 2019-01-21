@@ -37,6 +37,7 @@ class Property extends MasterController
         $neigh  = $this->tbAddress->getNeighborhoodById($id);
         $bairro = $this->formatAreaName($neigh['name']);
         $cidade = $this->formatAreaName($neigh['city']);
+        $gmap   = $bairro . '%20' . $cidade; 
 
         // Filtros de pesquisa
         $dados = array(
