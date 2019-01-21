@@ -1,7 +1,19 @@
+
+
+
 /* DASHBOARD SITE */
 body {
     font-size: .875rem;
   }
+
+  .login-body {
+    background: url('../img/background-login.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #FFFFFF;
+}
   
   .feather {
     width: 16px;

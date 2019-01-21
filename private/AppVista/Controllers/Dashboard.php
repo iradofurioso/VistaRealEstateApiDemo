@@ -10,12 +10,14 @@
 namespace AppVista\Controllers;
 
 use AppVista\Core\MasterController as MasterController;
+use AppVista\Model\Address as tbAdress;
 
 
 class Dashboard extends MasterController
 {
     
-    
+    private $tbAddress;
+
     /**
      * Initial procedures. 
      * 
@@ -23,6 +25,8 @@ class Dashboard extends MasterController
     public function __construct()
     {
         parent::__construct();
+
+        $this->tbAddress = new tbAdress();
 
         // Check if the user is loggedin
         $this->checkLoggedIn();
@@ -34,6 +38,9 @@ class Dashboard extends MasterController
      */
     public function index()
     {
+        $qtdNeigh   = count($this->tbAddress->getNeighborhoods());
+        $qtdCities  = count($this->tbAddress->getCities());
+        
         include(self::MDL_PATH . $this->getClassRootName(__CLASS__) . '/list.php'); 
     }
 

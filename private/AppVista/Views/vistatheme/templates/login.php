@@ -10,6 +10,8 @@
     <link href="<?php echo $url; ?>assets/vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo $url; ?>assets/vendor/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet">
     <link href="<?php echo $url; ?>assets/app/css/styles.css" rel="stylesheet">
+    
+    <link href="<?php echo $url; ?>assets/app/img/ico.png" rel="shortcut icon" type="image/x-icon">
 
     <script>
         var appUrl = '<?php echo $url; ?>';
@@ -17,7 +19,7 @@
 
   </head>
 
-  <body>
+  <body class="login-body">
 
     <!-- BEGIN: Container -->
     <div class="container-fluid">
@@ -28,7 +30,7 @@
             <div class="col-md-4">
             </div>
 
-            <div class="col-md-4 col-md-2">
+            <div class="col-md-4 col-md-2" style="background-color:rgba(255, 255, 255, 0.7);">
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h3 class="panel-title">Vista Real Estate - Entrar no Sistema</h3>

@@ -12,7 +12,19 @@ bootstrap@^4.2.1:
   resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.2.1.tgz#8f8bdca024dbf0e8644da32e918c8a03a90a5757"
   integrity sha512-tt/7vIv3Gm2mnd/WeDx36nfGGHleil0Wg8IeB7eMrVkY0fZ5iTaBisSh8oNANc2IBsCc6vCgCNTIM/IEN0+50Q==
 
-jquery@^3.3.1:
+jquery-form@^4.2.2:
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/jquery-form/-/jquery-form-4.2.2.tgz#9f96fb141ec9cbe0cdaf58b4d3f1dcbb009cdd52"
+  integrity sha512-HJTef7DRBSg8ge/RNUw8rUTTtB3l8ozO0OhD16AzDl+eIXp4skgCqRTd9fYPsOzL+pN6+1B9wvbTLGjgikz8Tg==
+  dependencies:
+    jquery ">=1.7.2"
+
+jquery@>=1.7.2, jquery@^3.3.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
   integrity sha512-Ubldcmxp5np52/ENotGxlLe6aGMvmF4R8S6tZjsP6Knsaxd/xp3Zrh50cG93lR6nPXyUFwzN3ZSOQI0wRJNdGg==
+
+pace-js@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/pace-js/-/pace-js-1.0.2.tgz#673a717f833ccb4f4315531b75ee4788376600f7"
+  integrity sha1-Zzpxf4M8y09DFVMbde5HiDdmAPc=

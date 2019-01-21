@@ -8,12 +8,17 @@
   "topLevelPatterns": [
     "@fortawesome/fontawesome-free@^5.6.3",
     "bootstrap@^4.2.1",
-    "jquery@^3.3.1"
+    "jquery-form@^4.2.2",
+    "jquery@^3.3.1",
+    "pace-js@^1.0.2"
   ],
   "lockfileEntries": {
     "@fortawesome/fontawesome-free@^5.6.3": "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-5.6.3.tgz#61c122c420d7a91613f393d6a06e5a4c6ae6abf3",
     "bootstrap@^4.2.1": "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.2.1.tgz#8f8bdca024dbf0e8644da32e918c8a03a90a5757",
-    "jquery@^3.3.1": "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
+    "jquery-form@^4.2.2": "https://registry.yarnpkg.com/jquery-form/-/jquery-form-4.2.2.tgz#9f96fb141ec9cbe0cdaf58b4d3f1dcbb009cdd52",
+    "jquery@>=1.7.2": "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca",
+    "jquery@^3.3.1": "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca",
+    "pace-js@^1.0.2": "https://registry.yarnpkg.com/pace-js/-/pace-js-1.0.2.tgz#673a717f833ccb4f4315531b75ee4788376600f7"
   },
   "files": [],
   "artifacts": {}
