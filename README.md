@@ -5,6 +5,7 @@ The objective of this code is to test the Vista Real Estate API service to find 
 ## Requirements
 
 * Apache >= 2 
+* Mod_rewrite
 * PHP >= 7.2.1
 * SQLite3
 * Yarn 
