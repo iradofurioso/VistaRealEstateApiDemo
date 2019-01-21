@@ -3,7 +3,7 @@
  * Configuration file.
  * 
  * @author: Carlos Eduardo da Silva <carlosedasilva@gmail.com>
- * @package: Controllers
+ * @package: Config
  */
 
 
