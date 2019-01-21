@@ -6,8 +6,10 @@ The objective of this code is to test the Vista Real Estate API service to find 
 
 * Apache >= 2 
 * PHP >= 7.2.1
+* SQLite3
 * Yarn 
 * Composer
+* Vista API - [http://www.vistasoft.com.br/api/]
 
 ### Installation
 
