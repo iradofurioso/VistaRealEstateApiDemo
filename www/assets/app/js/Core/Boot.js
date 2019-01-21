@@ -96,7 +96,7 @@ function triggerErrorForModal(data)
 
 
 /**
- * This procedure is fired whatever a city form is fired.
+ * This procedure is fired whatever a city form is called.
  * 
  */
 var vistaDeleteCity =
@@ -223,7 +223,7 @@ var vistaAddCity =
 
 
 /**
- * This procedure is fired whatever a neighborhood form is fired.
+ * This procedure is fired whatever a neighborhood form is called.
  * 
  */
 var vistaDeleteNeighborhood =
