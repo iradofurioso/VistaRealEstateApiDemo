@@ -1,6 +1,6 @@
 # Vista Real Estate API DEMO
 
-The objective of this code is to test the Vista Real Estate API service to find houses to rent/buy in Brazil. 
+The objective of this code is to test the Vista Real State API service to find houses to rent/buy in Brazil. 
 
 ## Requirements
 
